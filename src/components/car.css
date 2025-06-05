@@ -1,0 +1,87 @@
+.car-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.car-card{
+    max-width: 400px;
+    height: 408px;
+    margin: 50px 0;
+    
+}
+.car-img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.car-name{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+main p, b {
+    margin: 10px 20px;
+}
+.car-price{
+    color: #5fa36a;
+    font-weight: 600;
+}
+.car-button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #ca5252;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.car-button:hover{
+    background-color: #dd5959;
+    transform: scale(1.1);
+}
+.block-buy{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 930px) {
+    /* .block-buy{
+        
+    } */
+
+    .car-price {
+        position: relative;
+        display: block; /* чтобы ширина подстраивалась под текст */
+        text-decoration: none; /* убрать обычное подчёркивание */
+    }
+
+
+}
+@media (max-width: 720px) {
+    .car-name{
+        font-size: 20px;
+    }
+    .car-make{
+        font-size: 20px;
+    }
+    main p, b {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+}
+/* .car-name{
+    margin-top: 10px;
+}
+.car-disc{
+    margin-top: 10px;
+    height: 70px;
+}
+.car-price{
+    margin-top: 10px;
+} */
