@@ -11,7 +11,7 @@ export const cars: Car []= [
         id: 1,
         make: 'Porshe',
         name: 'Porshe 911',
-        img: '../../public/img/porshe911.jpg',
+        img: '/img/porshe911.jpg',
         disc: 'Porsche 911 — сочетание мощности, элегантности и точной управляемости.',
         price: '97 500'
     },
